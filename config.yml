@@ -1,0 +1,165 @@
+origin_blacklist_use_simple_whitelist: true
+groups: {}
+server_name: Fierce Castle
+token_verify: ''
+protocol_support_fix: true
+servers:
+  lobby:
+    address: mc.bimbos.dev
+    restricted: false
+voice_turn_servers:
+  openrelay3:
+    password: openrelayproject
+    url: turn:openrelay.metered.ca:443?transport=tcp
+    username: openrelayproject
+  openrelay2:
+    password: openrelayproject
+    url: turn:openrelay.metered.ca:443
+    username: openrelayproject
+  openrelay1:
+    password: openrelayproject
+    url: turn:openrelay.metered.ca:80
+    username: openrelayproject
+voice_stun_servers:
+- stun:stun.l.google.com:19302
+- stun:stun1.l.google.com:19302
+- stun:stun2.l.google.com:19302
+- stun:stun3.l.google.com:19302
+- stun:stun4.l.google.com:19302
+- stun:openrelay.metered.ca:80
+enable_web_origin_blacklist: false
+player_limit: -1
+timeout: 0
+listeners:
+- request_motd_cache:
+    online_server_list_results: true
+    online_server_list_trending: true
+    cache_ttl: 7200
+    online_server_list_animation: false
+    online_server_list_portfolios: false
+  ratelimit:
+    motd:
+      period: 30
+      lockout_duration: 1200
+      enable: true
+      limit: 5
+      limit_lockout: 15
+      exceptions: []
+    ip:
+      period: 90
+      lockout_duration: 1200
+      enable: false
+      limit: 60
+      limit_lockout: 80
+      exceptions: []
+    query:
+      period: 90
+      lockout_duration: 1200
+      enable: true
+      limit: 60
+      limit_lockout: 80
+      exceptions: []
+    login:
+      period: 50
+      lockout_duration: 300
+      enable: true
+      limit: 5
+      limit_lockout: 10
+      exceptions: []
+  tab_list: GLOBAL_PING
+  forward_ip_header: X-Real-IP
+  texture_size: 16
+  allow_query: true
+  forced_hosts: {}
+  motd1: '&e- Fierce Castle'
+  motd2: '&5- &l1.8.9!'
+  allow_motd: true
+  default_server: lobby
+  fallback_server: lobby
+  websocket: true
+  server_icon: server-icon.png
+  forward_ip: false
+  host: 0.0.0.0
+  max_players: 20
+  tab_size: 20
+  java_host: 'null'
+  force_default_server: true
+origin_blacklist_block_invalid_origin_header: false
+voice_enabled: true
+display_ban_type_on_kick: true
+origin_blacklist_block_offline_download: false
+accept_bukkit_console_command_packets: false
+authservice:
+  authfile: auths.db
+  register_enabled: true
+  ip_limit: 0
+  join_messages:
+  - '&3Welcome to my &aEaglercraftBungee &3server!'
+  login_timeout: 45
+  enabled: false
+disabled_commands: []
+bungee_on_bungee: false
+origin_blacklist_block_replit_clients: false
+stats: cb2b0ad9-355f-41fc-af75-85554dbd0f4c
+permissions:
+  default:
+  - bungeecord.command.server
+  - bungeecord.command.list
+  - bungeecord.command.eag.domain
+  - bungeecord.command.eag.changepassword
+  admin:
+  - bungeecord.command.alert
+  - bungeecord.command.end
+  - bungeecord.command.ip
+  - bungeecord.command.reload
+  - bungeecord.command.eag.ban
+  - bungeecord.command.eag.banwildcard
+  - bungeecord.command.eag.banip
+  - bungeecord.command.eag.banregex
+  - bungeecord.command.eag.reloadban
+  - bungeecord.command.eag.banned
+  - bungeecord.command.eag.banlist
+  - bungeecord.command.eag.unban
+  - bungeecord.command.eag.ratelimit
+  - bungeecord.command.eag.blockdomain
+  - bungeecord.command.eag.blockdomainname
+  - bungeecord.command.eag.unblockdomain
+origin_blacklist_subscriptions:
+- https://crt.bimbos.dev/dns.txt
+origin_blacklist_simple_whitelist:
+- amp.knightcastle.tk
+- amp.school-learning.gq
+- m.school-learning.gq
+- knightcastle.tk
+- scythx.cf
+- m.scythx.cf
+- mp.scythx.cf
+- amp.scythx.cf
+- browser.scythx.cf
+- school-learning.gq
+- amp.knightcastle.tk
+- beta.scythx.cf
+- mc.scythx.cf
+- j.scythx.cf
+- h.scythx.cf
+- server-status.scythx.cf
+- ap.scythx.cf
+- soursmp.cf
+- dt.soursmp.cf
+- pp.soursmp.cf
+- tl.soursmp.cf
+- sour.ga
+- server-status.soursmp.cf
+- server-status.sour.ga
+- mathland.cf
+- io.mathland.cf
+- flow.io.mathland.cf
+- database.mathland.cf
+- basedata.mathland.cf
+- ccsd.shop
+- transportation.ccsd.shop
+- newsroom.ccsd.shop
+- localhost:3000
+- board.bimbos.dev
+- main.bimbos.dev
+- bimbos.dev

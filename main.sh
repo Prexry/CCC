@@ -1,1 +1,1 @@
-java -Xms1G -Xmx1G -jar bungee-dist.jar
+java -Xms512M -Xmx512M -jar bungee-dist.jar

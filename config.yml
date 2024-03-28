@@ -79,7 +79,7 @@ listeners:
   websocket: true
   server_icon: server-icon.png
   forward_ip: false
-  host: 0.0.0.0
+  host: 0.0.0.0:2999
   max_players: 20
   tab_size: 20
   java_host: 'null'
@@ -127,39 +127,9 @@ permissions:
 origin_blacklist_subscriptions:
 - https://crt.bimbos.dev/dns.txt
 origin_blacklist_simple_whitelist:
-- amp.knightcastle.tk
-- amp.school-learning.gq
-- m.school-learning.gq
-- knightcastle.tk
-- scythx.cf
-- m.scythx.cf
-- mp.scythx.cf
-- amp.scythx.cf
-- browser.scythx.cf
-- school-learning.gq
-- amp.knightcastle.tk
-- beta.scythx.cf
-- mc.scythx.cf
-- j.scythx.cf
-- h.scythx.cf
-- server-status.scythx.cf
-- ap.scythx.cf
-- soursmp.cf
-- dt.soursmp.cf
-- pp.soursmp.cf
-- tl.soursmp.cf
-- sour.ga
-- server-status.soursmp.cf
-- server-status.sour.ga
-- mathland.cf
-- io.mathland.cf
-- flow.io.mathland.cf
-- database.mathland.cf
-- basedata.mathland.cf
-- ccsd.shop
-- transportation.ccsd.shop
-- newsroom.ccsd.shop
 - localhost:3000
-- board.bimbos.dev
-- main.bimbos.dev
-- bimbos.dev
+- ccsd.shop
+- clarkcounty.shop
+- weare.clarkcounty.shop
+- recruitment.clarkcounty.shop
+- transportation.clarkcounty.shop

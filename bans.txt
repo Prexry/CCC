@@ -20,10 +20,12 @@ replace-bukkit=false
 
 [Usernames]
 
-#trickzyzero: Involved with exploits.
+trickzyzero: Involved with exploits.
 Knight: Loser.
 Gundam_Unicorn: LLLL
-#Notch: Go away.
+Notch: This is the owners account, and cannot be logged into.
+#dicksucker_9000: Exploiting.
+#mob_hitler: Exploiting.
 
 # ban_test1: The ban hammer has spoken!
 # ban_test2: custom ban message here
